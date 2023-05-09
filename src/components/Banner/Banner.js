@@ -1,12 +1,10 @@
 import React from 'react'
 import { Carousel, Container } from 'react-bootstrap'
-import Image from '../assets/Night.jpg'
-import Image1 from '../assets/Moist.jpg'
-import Header from './Header'
+import Image from '../../assets/Night.jpg'
+import Image1 from '../../assets/Moist.jpg'
 
 function Banner() {
   return (
-<Container>
     <Carousel>
       <Carousel.Item>
         <img
@@ -32,7 +30,6 @@ function Banner() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    </Container>
   )
 }
 
