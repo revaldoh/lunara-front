@@ -4,12 +4,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import Header from "./components/Navbar/index";
 import Banner from './components/Banner/Banner';
-
+import Hero from "./components/Hero/Hero";
+import Content from "./components/Content/content";
+import Footer from './components/Footer/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <Header/>
   <Banner/>
+  <Hero/>
+  <Content/>
+  <Footer/>
+
   </React.StrictMode>
 );
 

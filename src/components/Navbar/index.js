@@ -31,7 +31,7 @@ function Header() {
           </Form>
         </Nav>
         <Nav>
-          <Button bg='light'>Login</Button>
+          <Button variant="outline-primary">Login</Button>
         </Nav>
       </Navbar.Collapse>
      </Container>
