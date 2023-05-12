@@ -27,3 +27,23 @@
     z-index: 0;
   }
   
+  .hero-skincare{
+    background-image: url(../assets/skincare.jpeg);
+    width: 300px;
+    height: 250x;
+  }
+  .hero-hair{
+    background-image: url(../assets/haricare.jpeg);
+    width: 300px;
+    height: 250px;
+  }
+  .hero-makeup{
+    background-image: url(../assets/makeup.jpg);
+    width: 300px;
+    height: 250px;
+  }
+  .hero-personal{
+    background-image: url(../assets/personal.jpg);
+    width: 300px;
+    height: 250px;
+  }

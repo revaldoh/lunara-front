@@ -1,20 +1,21 @@
 import React from 'react'
-
 const Hero = () => {
   return (
     <div className='container mt-5'>
       <div className='row'>
-        <div className='col border'><h4>Skincare</h4></div>
-        <div className='col border'>
-          <div className='border'>
-            <h4>Hair Care</h4>
-          </div>
-          <div className='border'>
-            <h4>Makeup</h4>
-          </div>
+        <div className='border hero-skincare'>
+          Skincare
         </div>
-        <div className='border'>
-          <h4>Personal Care</h4>
+        <div className='col hero-hair border ms-5'>
+            <h4>Hair Care</h4>
+        </div>
+        <div className='col border ms-5 hero-makeup'>
+            <h4>Makeup</h4>
+        </div>
+        <div className='col border ms-5 hero-personal'>
+        <div className='justify-content-center'>
+          <button className='btn'>Makeup</button>
+        </div>
         </div>
       </div>
     </div>
